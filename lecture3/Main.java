@@ -1,8 +1,10 @@
 package lecture3;
 
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
-        System.out.print("Hello Folks ");
-        System.out.println("Hey I a am Pratik");
+        Scanner input = new Scanner(System.in);
+        System.out.println(input.nextInt());
     }
 }
