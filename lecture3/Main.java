@@ -24,10 +24,14 @@ public class Main {
 
         // checking how much byte the intigeer will take
 
-        byte a = 40;
-        byte b = 80;
-        byte c = 100;
-        int d = (a * b) / c ;
-        System.out.println(d);
+        // byte a = 40;
+        // byte b = 80;
+        // byte c = 100;
+        // int d = (a * b) / c ;
+        // System.out.println(d);
+
+        
+        int number = 'p';
+        System.out.println(number);
      }
 }
