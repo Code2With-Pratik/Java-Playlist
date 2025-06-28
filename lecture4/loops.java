@@ -14,7 +14,7 @@ public class loops {
         // System.out.println(4);
         // System.out.println(5);
 
-        // Syntex of " For Loops :"
+        // Syntex of " For Loops :"     we use for loop when we know how many times the loop will execute
         
         /*
         for (initialisation; condition; increments/decreaments) {
@@ -39,19 +39,31 @@ public class loops {
         //     System.out.println(" Hello World ");
         // }
 
-        // Syntex of " while Loop "  
+        // Syntex of " while Loop "   we use while loop when we don't know how many times the loop will execute
         /*
           while (condition) {
              // body 
           }
         */
 
-        int num = 1 ;
-        while ( num <=8 ) {
-            System.out.println(num);
-            num ++;
-        }
+        // int num = 1 ;
+        // while ( num <=8 ) {
+        //     System.out.println(num);
+        //     num ++;
+        // }
         
 
+        // Syntex of  " do while Loop "   we use do while loop when we have to execute the loop at least once
+        /*
+          do {
+           // body
+          }while ( condition )  
+        */
+
+        int n = 1;
+        do {
+            System.out.println(n);
+            n++;
+        } while ( n<=6) ;
     }
 }
