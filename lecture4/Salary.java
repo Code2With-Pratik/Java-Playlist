@@ -13,7 +13,7 @@ public class Salary {
         
          int Salary = 24000;
 
-         if (Salary > 10000){
+         if (Salary > 10000) {
             Salary = Salary + 2000;
          }
          else {
