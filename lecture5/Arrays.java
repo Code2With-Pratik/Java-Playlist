@@ -35,7 +35,7 @@ public class Arrays {
         // arr[3] = 40; // fifth element
         // arr[4] = 50; // fourth element
 
-        // what if i have to make an n number of an array so we basically use a loop
+        // what if i have to make an n number of an array so we basically use a loop.
 
         // the above arry is storing the elements as [10, 20, 30, 40, 50]
 
