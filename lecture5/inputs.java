@@ -36,5 +36,10 @@ public class inputs {
         }
 
         System.out.println(Arrays.toString(str)); // prints the array in a string format
+
+        // modify 
+
+        str[1] = "Pratik"; // changing the second element of the array
+        System.out.println(Arrays.toString(str));
     }
 }
