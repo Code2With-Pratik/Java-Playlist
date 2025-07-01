@@ -1,11 +1,12 @@
 package lecture5;
 
 import java.util.Scanner;
+import java.util.Arrays;
 
 public class inputs {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
-        int[] arr = new int[5];
+        int[] arr = new int[8];
         arr[0] = 10; // first element
         arr[1] = 20; // second element  
         arr[2] = 30; // third element
@@ -20,8 +21,9 @@ public class inputs {
         for (int i = 0; i < arr.length; i++) { // i f we don't know the size of the array we use "arr.length"
             arr[i] = in.nextInt(); // taking input from the user
         }
-        for (int i = 0; i < arr.length; i++) { // i f we don't know the size of the array we use "arr.length"
-              System.out.print(arr[i] + " "); // prints all elements in the array
-        }
+        System.out.println(Arrays.toString(arr)); // prints the array in a string format
+        // for (int i = 0; i < arr.length; i++) { // i f we don't know the size of the array we use "arr.length"
+        //       System.out.print(arr[i] + " "); // prints all elements in the array
+        // }
     }
 }
