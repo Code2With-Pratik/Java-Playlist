@@ -26,6 +26,12 @@ public class Main {
         // int b = 15;
         // int sum = (a * b)/(a - b); 
         // System.out.println(sum);
+        
+        String name = "Pratik Dhandare";
+        int age = 20;
+        // float age = 20;
+        System.out.println("User name is: " + name );
+        System.out.println("User age is: " + age );
 
         // Make a program that takes the radius of a circle as input, calculates its circumference and area and prints it as output to the user.
         Scanner sc = new Scanner(System.in);
