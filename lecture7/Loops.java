@@ -32,7 +32,15 @@ public class Loops {
         for (int i = 0; i <= n; i++ ) {
             sum = sum +i;
         }
-        System.out.print(sum);
+        System.out.println(sum);
+
+        System.out.print("Enter the Number to print its Table :");
+        int num = sc.nextInt();
+
+        System.out.println("multiplication table of " + num + ":");
+        for (int i = 1; i <= 10; i++) {
+            System.out.println(num + " * " + i + " = " + (i*num));
+        }
 
     }
 }
