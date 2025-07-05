@@ -76,5 +76,15 @@ public class Pattern {
         }
         System.out.println();
     }
+
+    // Flyod's pattern
+    int num = 1;
+    for (int i = 1; i <= n; i++) { // rows   
+        for (int j = 1; j <= i; j++) { // columns
+            System.out.print(num + " ");
+            num++;
+        }
+        System.out.println();
+    }
   }
 }
