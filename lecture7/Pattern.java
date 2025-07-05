@@ -47,6 +47,18 @@ public class Pattern {
         }
         System.out.println();
     }
-
+    // print the half inverted rotated by 180 degree
+    
+    for (int i = 1; i <= n; i++) {
+      // inner loop to print space 
+      for (int j = 1; j <= n-i; j++) {
+         System.out.print("  ");
+      }
+      // inner loop to print stars
+      for (int j = 1; j <= i; j++) {
+         System.out.print(" *");
+      } 
+      System.out.println();
+    }
   }
 }
