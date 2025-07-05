@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://github.com/Code2With-Pratik/Java-Playlist/blob/main/Imges/banner.png" alt="Java Playlist Banner" width="800" />
+</p>
+
 <h1 align="center">📚 Java Programming Playlist</h1>
 <p align="center">A collection of Java programs, exercises, and notes as I explore Java development and Data Structures & Algorithms (DSA).</p>
 
@@ -26,5 +30,5 @@ This repository contains a curated playlist of my Java learning journey. Whether
 
 ---
 
-## 📁 Folder Structure
+
 
