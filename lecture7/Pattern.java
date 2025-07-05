@@ -34,7 +34,14 @@ public class Pattern {
     }
 
     // Print a half pyramid
-    for (int i = 1; i <= m; i++) { // rows
+    for (int i = 1; i <= n; i++) { // rows
+        for (int j = 1; j <= i; j++) { // columns
+            System.out.print("* ");
+        }
+        System.out.println();
+    }
+    // Print a half inverted pyramid
+    for (int i = n; i >= 1; i--) { // rows
         for (int j = 1; j <= i; j++) { // columns
             System.out.print("* ");
         }
