@@ -9,12 +9,12 @@ public class Pattern {
 
    // print 4*5 Solid rectangle   
 
-   //   for (int i = 1; i <= m; i++) {    //rows           // nested loop
-   //      for (int j = 1; j <=n; j++) {    //columns
-   //          System.out.print("* ");
-   //      }
-   //      System.out.println();
-   //   }
+     for (int i = 1; i <= m; i++) {    //rows           // nested loop
+        for (int j = 1; j <=n; j++) {    //columns
+            System.out.print("* ");
+        }
+        System.out.println();
+     }
 
     // print 4*5 hollow rectangle
 
@@ -31,6 +31,14 @@ public class Pattern {
             }
          }
          System.out.println();
+    }
+
+    // Print a half pyramid
+    for (int i = 1; i <= m; i++) { // rows
+        for (int j = 1; j <= i; j++) { // columns
+            System.out.print("* ");
+        }
+        System.out.println();
     }
 
   }
