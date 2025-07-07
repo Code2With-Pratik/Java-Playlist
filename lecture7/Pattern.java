@@ -183,5 +183,54 @@ public class Pattern {
             }
             System.out.println();
         }
+
+        // Print a Diamond Pattern
+        for (int i = 1; i <= n; i++) {
+            for (int j = 1; j <= ( n-i ); j++) {
+                System.out.print("  "); // print spaces
+            }
+            for (int j =1; j <= (2*i-1); j++) {
+                System.out.print("* "); // print stars
+            }
+            System.out.println();
+        }
+        for (int i = n-1; i >= 1; i--) {
+            for (int j = 1; j <= ( n-i ); j++) {
+                System.out.print("  "); // print spaces
+            }
+            for (int j =1; j <= (2*i-1); j++) {
+                System.out.print("* "); // print stars
+            }
+            System.out.println();
+        }
+    System.out.println();
+
+    // Print a Hollow Diamond Pattern
+    for (int i = 1; i <= n; i++) {
+        for (int j = 1; j <= (n-i); j++) {
+            System.out.print("  "); // print spaces
+        }
+        for (int j = 1; j <= (2*i-1); j++) {
+            if (j == 1 || j == (2*i-1) || i == n) {
+                System.out.print("* "); // print stars
+            } else {
+                System.out.print("  "); // print spaces
+            }
+        }
+        System.out.println();
     }
+    for (int i = n-1; i >= 1; i--) {
+        for (int j = 1; j <= (n-i); j++) {
+            System.out.print("  "); // print spaces
+        }
+        for (int j = 1; j <= (2*i-1); j++) {
+            if (j == 1 || j == (2*i-1)) {
+                System.out.print("* "); // print stars
+            } else {
+                System.out.print("  "); // print spaces
+            }
+        }
+        System.out.println();
+     }
+    } 
 }
