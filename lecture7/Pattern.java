@@ -34,19 +34,23 @@ public class Pattern {
     }
 
     // Print a half pyramid
+
     for (int i = 1; i <= n; i++) { // rows
         for (int j = 1; j <= i; j++) { // columns
             System.out.print("* ");
         }
         System.out.println();
     }
+
     // Print a half inverted pyramid
+
     for (int i = n; i >= 1; i--) { // rows
         for (int j = 1; j <= i; j++) { // columns
             System.out.print("* ");
         }
         System.out.println();
     }
+
     // print the half inverted rotated by 180 degree
     
     for (int i = 1; i <= n; i++) {
@@ -98,5 +102,35 @@ public class Pattern {
          }
          System.out.println();
       }
+
+      // Butterfly pattern
+
+      // for upper half
+      for (int i = 1; i <= n; i++) { // rows
+         for (int j = 1; j <= i; j++) { // columns     // 1 st half for star
+            System.out.print("* ");
+         }
+         for (int j = 1; j <= 2 * (n - i); j++) { // spaces
+            System.out.print("  ");
+         }
+            for (int j = 1; j <= i; j++) { // columns      // 2nd half for star
+                System.out.print("* ");
+         }
+         System.out.println();
+        }
+        // for lower half
+      for (int i = n; i >= 1; i--) { // rows
+            for (int j = 1; j <= i; j++) { // columns         // 3rd half for star
+                System.out.print("* ");
+            }
+            for (int j = 1; j <= 2 * (n - i); j++) { // spaces
+                System.out.print("  ");
+            }
+            for (int j = 1; j <= i; j++) { // columns        // 4th half for star
+                System.out.print("* ");
+            }
+            System.out.println();
+        }
+     System.out.println();
   }
 }
