@@ -134,14 +134,54 @@ public class Pattern {
      System.out.println();
 
      // Print a Solid Rhombus
-     for ( int i = 1; i <= 5; i++) {
-        for (int j = 1; j <=(n-i); j++) {
+     for ( int i = 1; i <= n; i++) {
+        for (int j = 1; j <= (n - i); j++) {
             System.out.print("  ");
         }
-        for ( int j = 1; j <= 5; j++) {
+        for ( int j = 1; j <= n; j++) {
             System.out.print("* ");
         }
         System.out.println();
      } 
-  }
+
+     // Print a Hollow Rhombus
+        for (int i = 1; i <= n; i++) {
+            for (int j = 1; j <= (n - i); j++) {
+                System.out.print("  ");
+            }
+            for (int j = 1; j <= n; j++) {
+                if (i == 1 || i == n || j == 1 || j == n) {
+                    System.out.print("* ");
+                } else {
+                    System.out.print("  ");
+                }
+            }
+            System.out.println();
+        }
+
+        // Print a numbered pyramid
+        for (int i = 1; i<=n; i++) {
+            for (int j = 1; j<=(n-i); j++) {          
+                System.out.print(" ");           // print spaces
+            }
+            for (int j =1; j<=i; j++) {
+                System.out.print(i + " ");         // print numbers
+            }
+            System.out.println();
+        }
+
+        // Print a Palindromic Pattern
+        for (int i = 1; i<=n; i++) {
+            for (int j = 1; j <= (n-i); j++) {
+                System.out.print("  ");       // print spaces
+            }
+            for (int j = i; j >= 1; j--) {
+                System.out.print(j + " ");       // print decreasing numbers
+            }
+            for (int j = 2; j <=i; j++) {
+                System.out.print(j + " ");        // print increasing numbers
+            }
+            System.out.println();
+        }
+    }
 }
