@@ -203,7 +203,6 @@ public class Pattern {
             }
             System.out.println();
         }
-    System.out.println();
 
     // Print a Hollow Diamond Pattern
     for (int i = 1; i <= n; i++) {
@@ -232,5 +231,50 @@ public class Pattern {
         }
         System.out.println();
      }
+
+     // Print a Hollow Butterfly Patern 
+
+        for (int i = 1; i <= n; i++) { // upper half
+            for (int j = 1; j <= i; j++) { // first half stars
+                if (j == 1 || j == i) {
+                    System.out.print("* ");
+                } else {
+                    System.out.print("  ");
+                }
+            }
+            for (int j = 1; j <= 2 * (n - i); j++) { // spaces
+                System.out.print("  ");
+            }
+            for (int j = 1; j <= i; j++) { // second half stars
+                if (j == 1 || j == i) {
+                    System.out.print("* ");
+                } else {
+                    System.out.print("  ");
+                }
+            }
+            System.out.println();
+        }
+
+        for (int i = n; i >= 1; i--) { // lower half
+            for (int j = 1; j <= i; j++) { // first half stars
+                if (j == 1 || j == i) {
+                    System.out.print("* ");
+                } else {
+                    System.out.print("  ");
+                }
+            }
+            for (int j = 1; j <= 2 * (n - i); j++) { // spaces
+                System.out.print("  ");
+            }
+            for (int j = 1; j <= i; j++) { // second half stars
+                if (j == 1 || j == i) {
+                    System.out.print("* ");
+                } else {
+                    System.out.print("  ");
+                }
+            }
+            System.out.println();
+        }
+
     } 
 }
