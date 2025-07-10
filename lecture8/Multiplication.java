@@ -2,7 +2,7 @@ package lecture8;
 
 import java.util.*;
 
-// Make a function and take two inputs and return the product
+// Make a function and take two inputs and return the product?
 
 public class Multiplication {
     public static int calculateProduct(int a , int b) {
