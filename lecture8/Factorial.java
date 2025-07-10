@@ -2,7 +2,7 @@ package lecture8;
 
 import java.util.Scanner;
 
-// Find the factorial of given input
+// Find the factorial of given input?
 
 public class Factorial {
     public static void printFactorial(int n) {
