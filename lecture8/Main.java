@@ -2,6 +2,8 @@ package lecture8;
 
 import java.util.*;
 
+// Make a function and add 2 number and return the sum
+
 public class Main {
    public static int calculateSum (int a, int b) {
     int sum = a + b;

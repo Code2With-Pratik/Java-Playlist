@@ -1,5 +1,7 @@
 package lecture8;
+
 import java.util.*;
+// print a given name in function
 
 public class Functions {
     public static void printMyName(String name ) {
