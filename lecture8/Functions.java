@@ -8,9 +8,8 @@ public class Functions {
         System.out.println(name);
         return;
     }
-
     public static void main(String[] args) {
-        Scanner sc = new Scanner (System.in);
+     Scanner sc = new Scanner (System.in);
         String name = sc.next();
 
         printMyName(name);     // calling the function
