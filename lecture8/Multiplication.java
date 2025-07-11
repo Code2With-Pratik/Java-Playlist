@@ -19,6 +19,5 @@ public class Multiplication {
         int b = sc.nextInt();
 
         System.out.println("Product of a and b is: " + calculateProduct(a, b));   // we can directly call the function
-
     }
 }
