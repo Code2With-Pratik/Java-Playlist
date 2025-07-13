@@ -11,7 +11,7 @@ public class Factorial {
             System.out.println("Invalid Number");
             return;
         }
-        
+
         int factorial = 1;
 
         for (int i = n; i >= 1; i--) {
@@ -21,6 +21,7 @@ public class Factorial {
         return;
     }
     public static void main(String[] args) {
+        // taking input using scanner 
         Scanner sc = new Scanner(System.in);
         System.out.println("Find the factorial: ");
         System.out.print("Enter the value of n: ");
