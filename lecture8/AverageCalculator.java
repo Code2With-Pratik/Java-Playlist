@@ -1,3 +1,5 @@
+// Enter 3 numbers from the user & make a function to print their average.
+
 package lecture8;
 
 import java.util.Scanner;
