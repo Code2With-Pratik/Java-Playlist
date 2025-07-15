@@ -1,3 +1,5 @@
+// Write an infinite loop using do while condition.
+
 package lecture8;
 
 public class InfiniteLoopExample {
