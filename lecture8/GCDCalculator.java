@@ -1,3 +1,4 @@
+package lecture8;
 import java.util.Scanner;
 
 public class GCDCalculator {
