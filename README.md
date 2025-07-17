@@ -11,7 +11,7 @@
 
 ---
 
-## 📌 About This Repository
+## 📌 About This Repositories :
 
 This repository contains a curated playlist of my Java learning journey. Whether you're a beginner or someone revising core Java concepts, you'll find helpful examples here.
 
