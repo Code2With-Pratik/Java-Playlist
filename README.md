@@ -21,7 +21,7 @@ This repository contains a curated playlist of my Java learning journey. Whether
 
 - ✅ Java Basics (Variables, Data Types, Operators)
 - ✅ Conditionals and Loops
-- ✅ Arrays and Strings
+- ✅ Arrays and Syringe.
 - ✅ Object-Oriented Programming (OOP).
 - ✅ Recursion.
 - ✅ Sorting and Searching Algorithms
