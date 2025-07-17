@@ -2,7 +2,7 @@
   <img src="https://github.com/Code2With-Pratik/Java-Playlist/blob/main/Imges/banner.png" alt="Java Playlist Banned." width="800" />
 </p>
 
-<h1 align="center">📚 Java Programming Playlist</h1>
+<h1 align="center">📚 Java Programming Play list :</h1>
 <p align="center">A collection of Java programs, exercises, and notes as I explore Java development and Data Structures & Algorithms (DSA).</p>
 
 <p align="center">
