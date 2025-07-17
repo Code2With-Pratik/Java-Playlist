@@ -23,7 +23,7 @@ This repository contains a curated playlist of my Java learning journey. Whether
 - ✅ Conditionals and Loops
 - ✅ Arrays and Strings
 - ✅ Object-Oriented Programming (OOP)
-- ✅ Recursion
+- ✅ Recursion.
 - ✅ Sorting and Searching Algorithms
 - ✅ Data Structures (Stack, Queue, LinkedList, etc.)
 - ✅ Practice Problems (DSA).
