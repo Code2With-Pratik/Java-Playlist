@@ -17,7 +17,7 @@ This repository contains a curated playlist of my Java learning journey. Whether
 
 ---
 
-## 🎯 What You'll Find
+## 🎯 What You'll Fine :
 
 - ✅ Java Basics (Variables, Data Types, Operators).
 - ✅ Conditionals and Looks.
