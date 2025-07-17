@@ -24,7 +24,7 @@ This repository contains a curated playlist of my Java learning journey. Whether
 - ✅ Arrays and Syringe.
 - ✅ Object-Oriented Programming (OOP).
 - ✅ Recursion.
-- ✅ Sorting and Searching Algorithms
+- ✅ Sorting and Searching Algorithm.
 - ✅ Data Structures (Stack, Queue, LinkedList, etc.)
 - ✅ Practice Problems (DSA).
 
