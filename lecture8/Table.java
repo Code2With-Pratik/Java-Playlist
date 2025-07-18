@@ -8,7 +8,7 @@ public class Table {
             System.out.println(number + " * " + i + " = " + (number * i));
         }
     }
- // main function started
+ // main function started .
      public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
