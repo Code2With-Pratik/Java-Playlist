@@ -16,6 +16,9 @@ public class Arrays {
 
         int x =sc.nextInt();
         //output
+
+        //Take an array as input from the user. Search for a
+        // given number x and print the index at which it occurs.
         for (int i=0; i<numbers.length; i++) {
             if (numbers[i] == x) {
                 System.out.println("x found at index : " + i);
