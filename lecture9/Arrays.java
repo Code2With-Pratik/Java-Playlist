@@ -21,7 +21,7 @@ public class Arrays {
         // given number x and print the index at which it occurs.
         for (int i=0; i<numbers.length; i++) {
             if (numbers[i] == x) {
-                System.out.println("x found at index : " + i);
+                System.out.println("x found at index : " + i);     // this phenomenon is known as linear search
             }
         }
     }
