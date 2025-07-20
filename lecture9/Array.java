@@ -3,7 +3,7 @@ package lecture9;
 import java.util.*;
 
 
-public class Arrays {
+public class Array {
    public static void main(String args[]) {
       Scanner sc = new Scanner(System.in);
       int size = sc.nextInt();
