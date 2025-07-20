@@ -28,8 +28,10 @@ public class Array1 {
 
         if (isAscending) {
             System.out.println("Array is sorted in ascending order");
+            // { 1, 2, 4, 7 } is sorted in ascending order.
         } else {
             System.out.println("Array is not sorted in ascending order");
+            //{3, 4, 6, 2} is not sorted in ascending order.
         }
     }
 }
