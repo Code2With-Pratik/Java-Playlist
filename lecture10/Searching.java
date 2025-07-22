@@ -20,18 +20,18 @@ public class Searching {
         }
         System.out.print("Enter the element to be searched: ");
         int key = sc.nextInt();
-        boolean found = false;
+        // boolean found = false;    // This is optional, if you want to stop searching after finding the first occurrence
         for(int i = 0; i < row; i++) {
             for(int j = 0; j < col; j++) {
                 if(arr[i][j] == key) {
                     System.out.println("Element found at position: (" + i + "," + j + ")");
-                    found = true;
-                    break;
+                    // found = true;    
+                    // break;
                 }
             }
-            if(found) {
-                break;
-            }
+            // if(found) {
+            //     break;
+            // }
         }
     }
     
