@@ -24,7 +24,7 @@ public class Searching {
         for(int i = 0; i < row; i++) {
             for(int j = 0; j < col; j++) {
                 if(arr[i][j] == key) {
-                    System.out.println("Element found at position: " + i + "," + j);
+                    System.out.println("Element found at position: (" + i + "," + j + ")");
                     found = true;
                     break;
                 }
