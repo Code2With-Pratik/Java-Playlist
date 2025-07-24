@@ -1,3 +1,6 @@
+// Input a string from the user. Create a new string called ‘result’ in which you 
+// will replace the letter ‘e’ in the original string with letter ‘i’. 
+
 package lecture12;
 
 import java.util.*;
