@@ -25,5 +25,9 @@ public class Strings {
         sb.setCharAt(4, 'i');
         System.out.println(sb);
 
+        // Now we can append the string to the end of the StringBuilder
+        sb.append(" is awesome");
+        System.out.println(sb.length());
+
     }    
 }
