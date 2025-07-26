@@ -7,7 +7,7 @@ public class Main {
         System.out.print("Enter the string: ");
         String name = sc.nextLine();
         StringBuilder newName = new StringBuilder(name);
-        System.out.println(newName.reverse());
+        System.out.println(newName.append( " Dhandare"));
     
     }
 }
