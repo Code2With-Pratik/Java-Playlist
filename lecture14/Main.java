@@ -9,6 +9,7 @@ public class Main {
         System.out.print("Enter the string: ");
         String name = sc.nextLine();
         StringBuilder newName = new StringBuilder(name);
+        // finally this will print the name with Dhandare appended
         System.out.println(newName.append( " Dhandare"));
     
     }
