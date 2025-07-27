@@ -28,5 +28,10 @@ public class Main {
         // < less than operator which checks is the left value is less than the right values
         // >= greater than or rqual to operator which checks if the left value is greater than or equls to the right value
         // <= less than or equals to operator which checks the left vlaue is less than or equla to the right value 
+
+        // logicals operators
+        // && logical "and" operator which checks if both the left and right values are true
+        // || logical "or" operator which checks if either the left or right value is true   
+        // ! logical "not" operator which negates the value of the left operand
     }
 }
