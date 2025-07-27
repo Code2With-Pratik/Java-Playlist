@@ -11,6 +11,14 @@ public class Main {
         StringBuilder newName = new StringBuilder(name);
         // finally this will print the name with Dhandare appended
         System.out.println(newName.append( " Dhandare"));
-    
+
+        int a = 10;
+        int b = 0;
+
+        b = ++a; //preincrement
+        b = a++;  //postincrement
+
+        System.out.println("Value of a: " + a);
+        System.out.println("Value of b: " + b);
     }
 }
