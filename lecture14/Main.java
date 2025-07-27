@@ -20,5 +20,13 @@ public class Main {
 
         System.out.println("Value of a: " + a);
         System.out.println("Value of b: " + b);
+
+        // lets discuss about some relational operators in java
+        // == double equlas to operators which checks the equality of two values
+        // != not equal to operator which checks if two values are not equal
+        // > greater than operator which checks if the left value is greater than the right values
+        // < less than operator which checks is the left value is less than the right values
+        // >= greater than or rqual to operator which checks if the left value is greater than or equls to the right value
+        // <= less than or equals to operator which checks the left vlaue is less than or equla to the right value 
     }
 }
