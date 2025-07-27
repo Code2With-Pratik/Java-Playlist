@@ -33,5 +33,15 @@ public class Main {
         // && logical "and" operator which checks if both the left and right values are true
         // || logical "or" operator which checks if either the left or right value is true   
         // ! logical "not" operator which negates the value of the left operand
+        if (!(a>b)) {
+            System.out.println("a is not greater than b");
+            System.out.println(a);
+            System.out.println(b);
+        } else {
+            System.out.println("a is greater than b");
+            System.out.println(b);
+            System.out.println(a);
+            
+        }
     }
 }
