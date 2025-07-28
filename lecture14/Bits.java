@@ -12,5 +12,11 @@ public class Bits {
             System.out.println("The bit at position " + pos + " is ON.");
         } 
 
+        int bitMasks = 1<<pos;
+
+        int newNumber = bitMasks | n;
+        System.out.println(newNumber);
+
+
     }
 }
