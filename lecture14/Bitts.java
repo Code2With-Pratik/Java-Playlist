@@ -10,5 +10,8 @@ public class Bitts {
         int newNumber = newBitMask & n;
         System.out.println(newNumber);
 
+        // this wull return the number with the bit at position 2 cleared
+        // 0101 & 1101 = 0101 
+
     }
 }
