@@ -20,7 +20,7 @@ public class Bits {  // this is to get the bit at a specific position in an inte
         // here just change the logic in above we use AND gate here we use OR gate
 
         int newNumber = bitMask | n;
-        System.out.println("new number is " + newNumber);
+        System.out.println("new number is " + newNumber);  // here this will give the output as the 7 which is in decimal
         if ((bitMask | n) == 0) {   //OR operation
             System.out.println("number is zero");
         } else {
