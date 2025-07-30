@@ -18,7 +18,7 @@ public class CountSetBits {
     static int countOnes(int n) {
         int count = 0;
         while (n > 0) {
-            If last bit is 1, increment count
+            // If last bit is 1, increment count
             if ((n & 1) == 1) {
                 count++;
             }
