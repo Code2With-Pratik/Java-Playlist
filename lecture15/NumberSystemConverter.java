@@ -35,18 +35,18 @@ public class NumberSystemConverter {
     }
 
     // Function to convert binary to decimal 
-    public static int binaryToDecimal(String binary) {
-        int decimal = 0;
-        int power = 0;
+    // public static int binaryToDecimal(String binary) {
+    //     int decimal = 0;
+    //     int power = 0;
 
-        // Start from thr rightmost digit
-        for (int i = binary.length() - 1; i >= 0; i--) {
-            char digit = binary.charAt(i);;
-            if (digit == '1') {
-                decimal += Math.pow(2, power);
-            }
-            power++;
-        } 
-      return decimal;
-    }
+    //     // Start from thr rightmost digit
+    //     for (int i = binary.length() - 1; i >= 0; i--) {
+    //         char digit = binary.charAt(i);;
+    //         if (digit == '1') {
+    //             decimal += Math.pow(2, power);
+    //         }
+    //         power++;
+    //     } 
+    //   return decimal;
+    // }
 }
