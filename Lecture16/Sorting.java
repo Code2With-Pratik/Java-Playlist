@@ -38,7 +38,6 @@ public class Sorting {
             arr[smallest] = arr[i];
             arr[i] = temp;
         }  //time complexity is O(n^2)
- 
         printArray(arr);
     }
 }
