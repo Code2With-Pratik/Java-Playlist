@@ -26,6 +26,8 @@ public class Sorting {
             }
         }  //time complexity is O(n^2)
 
+        
+
         // Selection sorting
         for (int i=0; i<arr.length-1; i++) {
             int smallest = i;
