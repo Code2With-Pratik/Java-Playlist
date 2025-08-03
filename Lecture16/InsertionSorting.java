@@ -25,6 +25,6 @@ public class InsertionSorting {
             // placement
             arr[j+1] = current;
         }
-        printArray(arr);
+        printArray(arr);  // Function call for the output
     }
 }
