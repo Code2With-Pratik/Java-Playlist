@@ -15,7 +15,7 @@ public class InsertionSorting {
         int arr[] = {7,8,9,5,4};
 
         // insertion sorting 
-        for (int i=1; i<=arr.length-1; i++) {
+        for (int i=1; i<=arr.length-1; i++) {   //this loop will iterate the whole array and traverse each elements
             int current = arr[i];
             int j = i-1;
             while (j>=0 && current<arr[j]) {
