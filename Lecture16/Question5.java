@@ -1,7 +1,8 @@
 package Lecture16;
 
+import java.util.*;
+
 public class Question5 {
-    public class RowWiseBubbleSort {
     public static void main(String[] args) {
         int[][] arr = {
             {3, 2, 1},
@@ -33,4 +34,3 @@ public class Question5 {
     }
 }
 
-}
