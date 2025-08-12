@@ -23,7 +23,7 @@ public class InsertionSorting {
                 arr[j+1] = arr[j];
                 j--;
             }
-            // placement
+            // place ment.
             arr[j+1] = current;
         }
         printArray(arr);  // Function call for the output
