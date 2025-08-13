@@ -10,7 +10,7 @@ public class TowerOfHanoi {
         System.out.println("Move disk " + n + " from " + from + " to " + to);
         solve(n - 1, aux, to, from);
     }
- // the main function 
+ // the main function .
     public static void main(String[] args) {
         solve(3, 'A', 'C', 'B');
     }
