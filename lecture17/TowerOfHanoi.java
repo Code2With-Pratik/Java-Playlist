@@ -6,6 +6,7 @@ public class TowerOfHanoi {
             System.out.println("Move disk 1 from " + from + " to " + to);
             return;
         }
+        
         solve(n - 1, from, aux, to);
         System.out.println("Move disk " + n + " from " + from + " to " + to);
         solve(n - 1, aux, to, from);
