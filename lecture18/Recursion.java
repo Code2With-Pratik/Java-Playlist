@@ -1,4 +1,4 @@
-Q.Find the 1st & last occurance of an element in string?
+// Q.Find the 1st & last occurance of an element in string?
 
 package lecture18;
 
