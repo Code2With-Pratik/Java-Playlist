@@ -21,6 +21,7 @@ public class Recursion3 {
             removeDuplicates(str, idx+1, newString);
         }
     }
+    
     public static void main(String[] args) {
         String str = "abbccda";
         removeDuplicates(str, 0, "");
