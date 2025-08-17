@@ -4,7 +4,7 @@ import java.util.*;
 
 public class InsertionSorting {
 
-    //creating a function called printArray
+    //creating a function called print array.
     public static void printArray(int arr[]) {
         for (int i=0; i<arr.length; i++) {
             System.out.print(" " + arr[i]);
@@ -23,7 +23,7 @@ public class InsertionSorting {
                 arr[j+1] = arr[j];
                 j--;
             }
-            // placement
+            // place ment.
             arr[j+1] = current;
         }
         printArray(arr);  // Function call for the output
