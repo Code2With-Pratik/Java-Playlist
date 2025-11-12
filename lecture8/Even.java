@@ -13,7 +13,12 @@ public class Even {
         System.out.print("Enter the number: ");
         int number = sc.nextInt();
 
-        if (isEven(number)) {
+        // if (isEven(number)) {
+        //     System.out.println(number + " is even.");
+        // } else {
+        //     System.out.println(number + " is odd.");
+        // }
+        if (number % 2 == 0) {
             System.out.println(number + " is even.");
         } else {
             System.out.println(number + " is odd.");
